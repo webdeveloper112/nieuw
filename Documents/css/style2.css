@@ -1,0 +1,174 @@
+nav a{
+    text-decoration: none;
+
+}
+ul{
+     display: flex;
+     width: 80%;
+     justify-content: space-between;
+     font-size: 30px;
+     
+     list-style: none;
+}
+li{
+     background-color: rgb(12, 172, 126);
+     color: black;
+     border-style: inset;
+     border-color: rgb(7, 81, 7);
+     border-width: 5px;
+}
+nav a:hover{ background-color: darkgreen;
+     
+}
+.current{
+    text-transform: uppercase; 
+    background-color: white;
+    font-style: italic;
+    background-color: none;
+}
+h1{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: rgb(150, 7, 7);
+     text-align: center;
+}
+.flower img{
+     display: flex;
+     width: 100%;
+     height: auto;
+     align-items: first baseline;
+     border-radius: 120px;
+     
+}
+.flower img:hover{
+  transform: scaleX(-1);
+}
+div.seasons{
+  display: inline-block;
+  
+  
+}
+ .seasons img{ width: 80%;
+  height: auto;
+  border-radius: 150px;
+
+}
+.seasons img:hover{
+  transform: scaleX(-1);
+  border-radius: 120px;
+}
+
+
+p{
+     font-size: 20px;
+     font-family: cursive;
+color: rgb(36, 78, 5);
+}
+div.gallery {
+     display: grid;
+     grid-template-columns: auto auto;
+     margin: 0 +3;
+
+   }
+  div.gallery img{
+    width: 40%;
+     border: 10px solid #0a0000;
+     margin: 30px;
+     padding: 5px;
+     gap: 5px 5px;
+     align-items: center;
+     border-radius: 10px;
+  } 
+
+   div.gallery img:hover{
+     border: 1px solid #ac1515;
+     transform: rotate3d(30);
+   }
+   
+   div.gallery img {
+     width: 100%;
+   
+   }
+   
+   
+   * {
+     box-sizing: border-box;
+
+   }
+   
+   .responsive {
+     padding: 0 6px;
+     align-items: center;
+     width: 100%;
+   }
+   
+   
+     .responsive {
+       width: 49.99999%;
+       margin: 6px 0;
+     }
+     div.gallery img{width:600px;
+      height: 400px;
+        border: 10px solid black;
+      padding: 15px;
+      margin: 5px;
+
+     }
+     .gallery img:hover{width: 800%px;
+      height: 400px;
+      border: 5px solid rebeccapurple;
+      padding: 5px;
+      margin: 5px;
+
+
+     }
+  .winter{
+    margin:0;
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    gap: 2px;
+    border: seagreen;
+
+}
+
+  .winter img{
+    width:300px;
+    height: 200px;
+      border: 10px solid black;
+    padding: 15px;
+    margin: 5px;
+    background-color: lavender;
+    
+
+  }
+  .winter img:hover{
+    width: 400px;
+    height: 300px;
+    border: 5px solid rebeccapurple;
+    padding: 5px;
+    margin: 5px;
+  }
+ .winter :nth-child(odd){
+  border: 10px solid brown ;
+  background-color: lavender;
+  border-radius: 30px;
+ }
+ a:link {
+  color: red;
+  text-decoration: none;
+  
+}
+
+
+a:visited {
+  color: green;
+}
+
+
+a:hover {
+  color: brown;
+}
+
+
+a:active{
+  color: blue;}
+   
